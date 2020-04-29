@@ -13,6 +13,8 @@
 		5EC89D0623A83E4800073B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC89D0523A83E4800073B45 /* Assets.xcassets */; };
 		5EC89D0923A83E4800073B45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC89D0823A83E4800073B45 /* Preview Assets.xcassets */; };
 		5EC89D0C23A83E4800073B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC89D0A23A83E4800073B45 /* LaunchScreen.storyboard */; };
+		5ECB648E23C6E9D400EE0836 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECB648D23C6E9D400EE0836 /* DetailView.swift */; };
+		5ECB649023C6EF7100EE0836 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECB648F23C6EF7100EE0836 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5EC89D0823A83E4800073B45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EC89D0B23A83E4800073B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC89D0D23A83E4800073B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECB648D23C6E9D400EE0836 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5ECB648F23C6EF7100EE0836 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				5EC89D0A23A83E4800073B45 /* LaunchScreen.storyboard */,
 				5EC89D0D23A83E4800073B45 /* Info.plist */,
 				5EC89D0723A83E4800073B45 /* Preview Content */,
+				5ECB648D23C6E9D400EE0836 /* DetailView.swift */,
+				5ECB648F23C6EF7100EE0836 /* ModalView.swift */,
 			);
 			path = swiftui_dz_01;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC89D0023A83E4600073B45 /* AppDelegate.swift in Sources */,
+				5ECB648E23C6E9D400EE0836 /* DetailView.swift in Sources */,
 				5EC89D0223A83E4600073B45 /* SceneDelegate.swift in Sources */,
 				5EC89D0423A83E4600073B45 /* ContentView.swift in Sources */,
+				5ECB649023C6EF7100EE0836 /* ModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
